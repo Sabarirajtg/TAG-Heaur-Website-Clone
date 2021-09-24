@@ -1,0 +1,232 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  /* overflow-x: hidden; */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  margin-bottom: 10px;
+}
+
+.intro {
+  height: 110vh;
+}
+
+.intro video {
+  margin-left: 0px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro h6 {
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+
+.intro h1 {
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+/* section{
+    height: 100vh;
+    color: black;
+}
+
+section h1{
+    padding-top: 300px;
+    text-align: center;
+    font-size: 80px ;
+} */
+
+.section2 {
+  padding: 180px;
+  text-align: center;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: bolder;
+  color: black;
+}
+
+.section2 h2 {
+  color: black;
+  font-weight: bolder;
+}
+
+.gridContent {
+  color: #595959;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin-left: 35px;
+  /* height: 300px; Should be removed. Only for demonstration */
+}
+.columnRight {
+  float: right;
+  width: 50%;
+  padding: 10px;
+}
+.columnRightContent {
+  margin-left: auto;
+  margin-right: auto;
+  width: 26rem;
+  margin-top: 40vh;
+}
+
+.newsletter {
+  text-align: center;
+  margin-left: 120px;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 12px;
+  color: grey;
+}
+
+.newsletter-content {
+  font-size: 13px;
+  color: grey;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+video {
+  width: fit-content;
+}
+
+h6 {
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+h4 {
+  font-weight: bolder;
+}
+
+.row2 {
+  /* margin-top: 250px; */
+  margin-left: 0px;
+  padding: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  background-color: aliceblue;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.carouselContent {
+  color: white;
+}
+
+.container {
+  padding: 100px;
+  /* margin-right: 3px; */
+}
+
+.icon {
+  margin-left: 80px;
+}
+
+.icon2 {
+  margin-left: 98px;
+}
+
+.iconContent {
+  margin-top: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.section3 {
+  padding: 90px;
+  text-align: center;
+}
+
+p {
+  margin-left: 70px;
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+.footer-links {
+  margin-top: 100px;
+}
+
+.footer-content {
+  font-size: 12px;
+  cursor: pointer;
+  color: grey;
+}
+.footer-content:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+section h6 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.image-content {
+  margin-top: 40%;
+  color: white;
+  /* left: 10%; */
+  position: absolute;
+  margin-left: 67%;
+}
+
+.p-4 {
+  margin-bottom: 70px;
+}
+
+.last-content {
+  padding: 70px;
+}
+
+.products-section {
+  background-color: #101010;
+  padding-bottom: 100px;
+}
+
+.products-section h5 {
+  letter-spacing: 1.5px;
+  font-size: medium;
+  color: white;
+  padding-top: 10%;
+  margin-left: 35%;
+  padding-bottom: 1%;
+}
+
+
+
