@@ -17,10 +17,12 @@ nav {
 }
 
 .intro {
+  margin-top: 0px;
   height: 110vh;
 }
 
 .intro video {
+  margin-top: -10px;
   margin-left: 0px;
   height: 100%;
   width: 100%;
@@ -228,5 +230,15 @@ section h6 {
   padding-bottom: 1%;
 }
 
+.Navbar-static {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
 
-
+nav li {
+  margin-left: 50px;
+  display: inline;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
